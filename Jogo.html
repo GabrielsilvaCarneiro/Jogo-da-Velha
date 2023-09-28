@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo.velha.com.br</title>
+  <link rel="stylesheet" href="Jogo.css">
+</head>
+<body>
+
+  <div class="pontuacao">
+    <p id="pontos">0</p>
+  
+    <p id="pontosO">0</p>
+  </div>
+
+  
+  <h3 class="pont">PONTUAÇÃO</h3>
+
+  <div class="jogador">
+  <h3 class="jogadorX">JOGADOR X</h3>
+  <br>
+  <h3 class="jogadorO">JOGADOR O</h3>
+</div>
+
+
+  <main> 
+    
+    <h1>JOGO DA VELHA</h1>
+ <br>
+    
+    
+    <div class="game">
+      <button data-i="1"></button>
+      <button data-i="2"></button>
+      <button data-i="3"></button>
+      <button data-i="4"></button>
+      <button data-i="5"></button>
+      <button data-i="6"></button>
+      <button data-i="7"></button>
+      <button data-i="8"></button>
+      <button data-i="9"></button>
+    </div>
+    <h2 class="playerdavez"></h2>
+
+    <a href="Capa.html">
+      <button>
+        V O L T A R
+        <div id="clip">
+            <div id="leftTop" class="corner"></div>
+            <div id="rightBottom" class="corner"></div>
+            <div id="rightTop" class="corner"></div>
+            <div id="leftBottom" class="corner"></div>
+        </div>
+        <span id="rightArrow" class="arrow"></span>
+        <span id="leftArrow" class="arrow"></span>
+    </button>
+    </a>
+  </main>
+  <script src="Jogo.js"></script>
+</body>
+</html>
+
